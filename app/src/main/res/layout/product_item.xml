@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="112dp"
@@ -20,7 +19,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.172" />
+            app:layout_constraintVertical_bias="0.172"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView3"
@@ -32,7 +32,8 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
 
         <RatingBar
             android:id="@+id/smallRating"
@@ -50,7 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#F44336"
-            android:text="Bids"
+            android:text="@string/bids"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.91"
             app:layout_constraintStart_toStartOf="@+id/textView4"
@@ -65,7 +67,8 @@
             app:layout_constraintBottom_toBottomOf="@+id/smallRating"
             app:layout_constraintStart_toEndOf="@+id/smallRating"
             app:layout_constraintTop_toTopOf="@+id/smallRating"
-            app:layout_constraintVertical_bias="0.625" />
+            app:layout_constraintVertical_bias="0.625"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <TextView
             android:id="@+id/tvlocation"
@@ -87,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:text="@string/productprice"
-            android:textColor="#838383"
+            android:textColor="#757575"
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/smallRating"
@@ -100,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Starting/Current Bid ৳3500"
+            android:text="@string/starting_current_bid_3500"
             android:textColor="#D40000"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -114,14 +117,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Ends in:  10D 20h Left"
+            android:text="@string/ends_in_10d_20h_left"
             app:layout_constraintEnd_toEndOf="@+id/textView2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.cardview.widget.CardView>
 
 

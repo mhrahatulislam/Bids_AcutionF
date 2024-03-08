@@ -7,4 +7,11 @@
     <string name="acution_from_brand">Acution From Brand</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bids">Bids</string>
+    <string name="todo">TODO</string>
+    <string name="starting_current_bid_3500">Starting/Current Bid ৳3500</string>
+    <string name="ends_in_10d_20h_left">Ends in: 10D 20h Left</string>
+    <string name="back">TODO</string>
+    <string name="product_price_dtl">BDT 30,000</string>
+    <string name="Some_thing_elas">TODO</string>
 </resources>
