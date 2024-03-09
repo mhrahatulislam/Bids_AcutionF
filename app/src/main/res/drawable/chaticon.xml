@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android">
+    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_1_485)">
+            <path d="M12.25 8.90039C12.25 9.20981 12.1271 9.50656 11.9083 9.72535C11.6895 9.94414 11.3928 10.0671 11.0833 10.0671H4.08333L1.75 12.4004V3.06706C1.75 2.75764 1.87292 2.46089 2.09171 2.2421C2.3105 2.02331 2.60725 1.90039 2.91667 1.90039H11.0833C11.3928 1.90039 11.6895 2.02331 11.9083 2.2421C12.1271 2.46089 12.25 2.75764 12.25 3.06706V8.90039Z" stroke="#047E94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+            <clipPath id="clip0_1_485">
+                <rect width="14" height="14" fill="white" transform="translate(0 0.150391)"/>
+            </clipPath>
+        </defs>
+    </svg>
+
+
+</vector>
